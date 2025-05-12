@@ -6,11 +6,10 @@ font-family: 'Times New Roman', Times, serif;
 
 }
 nav{
-max-width: 9000px;
-margin: auto;
+max-width: 100%;
+margin-top: 0;
 background-color:#ecb64c ;
 font-size: 20px;
-margin-top:px;
 }
 body{
 background-color:#a6c2c5;
@@ -23,7 +22,7 @@ justify-content: space-around;
 }
 .barraMenu > li > a{
 display: block;
-padding: 15 px 20 px;
+padding: 15px 20px;
 color:rgb(141, 103, 103) ;
 text-decoration: none;
 }
@@ -47,8 +46,6 @@ display: block;
 color: #a6c2c5;
 padding: 15px 15px 15px 20px;
 text-decoration: none;
-
-}
 .Obrera {
   display: flex;
   align-items: center; 
