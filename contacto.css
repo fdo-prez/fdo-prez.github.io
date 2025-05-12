@@ -1,0 +1,84 @@
+*{
+margin :0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+
+}
+nav{
+max-width: 9000px;
+margin: auto;
+background-color:#ecb64c ;
+font-size: 20px;
+margin-top:px;
+}
+body{
+background-color:#a6c2c5;
+
+}
+.barraMenu{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.barraMenu > li > a{
+display: block;
+padding: 15 px 20 px;
+color:rgb(141, 103, 103) ;
+text-decoration: none;
+}
+
+.barraMenuVertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color:#ede9e6 ;}
+.barraMenu li:hover .barraMenuVertical{
+display: block;
+
+}
+.barraMenuVertical li:hover{
+background-color: #527eaf;
+
+}
+.barraMenuVertical li a {
+display: block;
+color: #a6c2c5;
+padding: 15px 15px 15px 20px;
+text-decoration: none;
+
+}.formulario-contacto {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #ecb64c;
+  border-radius: 10px;
+  background-color: #fefefe;
+  font-size: 18px;
+  color: #363232;
+}
+
+.formulario-contacto input,
+.formulario-contacto textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario-contacto button {
+  padding: 10px 20px;
+  background-color: #ecb64c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formulario-contacto button:hover {
+  background-color: #d9a23f;
+}

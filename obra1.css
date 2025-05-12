@@ -1,0 +1,71 @@
+*{
+margin :0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+
+}
+nav{
+max-width: 9000px;
+margin: auto;
+background-color:#ecb64c ;
+font-size: 20px;
+margin-top:px;
+}
+body{
+background-color:#a6c2c5;
+
+}
+.barraMenu{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.barraMenu > li > a{
+display: block;
+padding: 15 px 20 px;
+color:rgb(141, 103, 103) ;
+text-decoration: none;
+}
+
+.barraMenuVertical{
+position: absolute;
+display: none;
+list-style: none;
+width: 200px;
+background-color:#ede9e6 ;}
+.barraMenu li:hover .barraMenuVertical{
+display: block;
+
+}
+.barraMenuVertical li:hover{
+background-color: #527eaf;
+
+}
+.barraMenuVertical li a {
+display: block;
+color: #a6c2c5;
+padding: 15px 15px 15px 20px;
+text-decoration: none;
+
+}
+.Peregrina {
+  display: flex;
+  align-items: center; 
+  margin: 20px;
+}
+
+.imagen {
+  width: 500px; 
+  height: auto;
+  margin-right: 20px; 
+  margin-top: 0px;
+}
+
+.texto{  
+font-size: 30px;
+border-style: solid;
+border-width: 10px;
+border-color: #527eaf;
+border-radius:10px;
+}
