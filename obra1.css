@@ -7,10 +7,9 @@ font-family: 'Times New Roman', Times, serif;
 }
 nav{
 max-width: 100%;
-margin: auto;
+margin-top: 0;
 background-color:#ecb64c ;
 font-size: 20px;
-padding: 10px;
 }
 body{
 background-color:#a6c2c5;
@@ -20,7 +19,6 @@ background-color:#a6c2c5;
 list-style: none;
 display: flex;
 justify-content: space-around;
-flex-wrap: wrap;
 }
 .barraMenu > li > a{
 display: block;
@@ -49,7 +47,6 @@ color: #a6c2c5;
 padding: 15px 15px 15px 20px;
 text-decoration: none;
 
-}
 .Peregrina {
   display: flex;
   align-items: center; 
