@@ -1,53 +1,57 @@
-*{
-margin :0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;
-
-}
-nav{
-max-width: 9000px;
-margin: auto;
-background-color:#ecb64c ;
-font-size: 20px;
-margin-top:px;
-}
-body{
-background-color:#a6c2c5;
-
-}
-.barraMenu{
-list-style: none;
-display: flex;
-justify-content: space-around;
-}
-.barraMenu > li > a{
-display: block;
-padding: 15 px 20 px;
-color:rgb(141, 103, 103) ;
-text-decoration: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.barraMenuVertical{
-position: absolute;
-display: none;
-list-style: none;
-width: 200px;
-background-color:#ede9e6 ;}
-.barraMenu li:hover .barraMenuVertical{
-display: block;
-
+body {
+    background-color: #a6c2c5;
 }
-.barraMenuVertical li:hover{
-background-color: #527eaf;
 
+nav {
+    max-width: 100%;
+    margin-top: 0;
+    background-color: #ecb64c;
+    font-size: 20px;
+    padding: 10px;
 }
+
+.barraMenu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.barraMenu > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: rgb(141, 103, 103);
+    text-decoration: none;
+}
+
+.barraMenuVertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #ede9e6
+    ;
+}
+
+.barraMenu li:hover .barraMenuVertical {
+    display: block;
+}
+
+.barraMenuVertical li:hover {
+    background-color: #527eaf;
+}
+
 .barraMenuVertical li a {
-display: block;
-color: #a6c2c5;
-padding: 15px 15px 15px 20px;
-text-decoration: none;
-
+    display: block;
+    color: #a6c2c5;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
 }
 #p1{  
 padding:20px; margin-top: 20px;
@@ -71,4 +75,46 @@ border-color: #527eaf;
   border-radius: 10px;
   margin-top: 10px;
 
+} @media (max-width: 600px) {
+    nav {
+        font-size: 16px;
+    }
+
+    .barraMenu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barraMenu > li {
+        margin: 5px 0;
+    }
+
+    #encabezado {
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+    #p1, #p2 {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    
+    .imagen {
+        width: 100%; 
+        height: auto;
+        margin-right: 0;
+    }
+
+   
+    .texto {
+        font-size: 18px;
+        padding: 15px;
+    }
 }
